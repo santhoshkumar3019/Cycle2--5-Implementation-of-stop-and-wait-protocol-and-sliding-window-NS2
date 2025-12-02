@@ -20,6 +20,7 @@
 ## Step 16: Stop the program.
  
 # PROGRAM:
+```
 ## set ns [new Simulator]
 ## set namfile [open out.nam w]
 ## $ns namtrace-all $namfile proc finish {}
@@ -66,11 +67,11 @@
 ## $ns at 0.0 "$n0 label Sender"
 ## $ns at 0.0 "$n1 label Receiver"
 ## $ns run
+```
  
 # OUTPUT:
 
-
-
+<img width="1280" height="773" alt="image" src="https://github.com/user-attachments/assets/98e39ce0-90b0-4f8e-839d-799dbc481fb2" />
 
 
 ## MARK ALLOCATION	TOTAL MARKS	MARKS OBTAINED
@@ -82,8 +83,5 @@
 ## TOTAL	100	
 
 
-
-
-
 ## RESULT:
-## Thus the Stop and Wait protocol is implemented using NS2 and the output is verified successfully.
+   Thus the Stop and Wait protocol is implemented using NS2 and the output is verified successfully.
